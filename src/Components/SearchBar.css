@@ -1,0 +1,21 @@
+
+.SearchBar form{
+    display: flex;
+    padding: 40px;
+    height: 50px;
+    padding-left: 20rem;
+}
+.SearchBar button{
+    margin-left: 20px;
+    cursor: pointer;
+}
+input[type=text]{ 
+    width: 80%;
+    height: 50px;
+    font-size: 1.35em;
+}
+@media (max-width:800px){
+    input[type=text]{ 
+        position: relative;
+    }
+}

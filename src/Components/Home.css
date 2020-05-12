@@ -1,0 +1,25 @@
+.pic-container{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    background-color: rgb(183, 244, 255);
+    flex-wrap: wrap;
+    padding-left: 6rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.pic img{
+    width: 200px;
+    height: 200px;
+}
+.pic{
+    margin:20px;
+}
+@media (max-width:800px){
+    .pic-container{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+
+    }
+}
